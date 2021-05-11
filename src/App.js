@@ -20,7 +20,7 @@ function App() {
             <Route exact path="/">
               <HomeScreen />
             </Route>
-            <Route path="/film">
+            <Route exact path="/film">
               <MoviePage />
             </Route>
           </Switch>
